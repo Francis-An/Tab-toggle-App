@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabs.css">
+    <title>Tabs App</title>
+</head>
+<body>
+   <div class="container">
+       <div class="tab">
+            <a onclick="openCity(event, 'Accra')" id = "default" class="tablinks " href="#">Accra</a>
+            <a onclick="openCity(event, 'Paris')" class="tablinks" href="#">Paris</a>
+            <a onclick="openCity(event, 'Tokyo')" class="tablinks" href="#">Tokyo</a>
+       </div>
+
+       <div class="main">
+           <div id = "Accra" class="tabcontent">
+            <h3>Accra</h3>
+            <p>Accra is the capital city of Ghana.</p>
+        </div>
+        <div id="Paris" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p>
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+       </div>
+   </div>
+    <script  src="tabs.js"></script>
+</body>
+</html>
