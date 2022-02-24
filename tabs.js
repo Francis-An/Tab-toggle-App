@@ -21,3 +21,7 @@ function openCity(evt,cityName){
 }
 //Default open
 document.getElementById('default').click();
+
+function hello () {
+    let message = "Hello world";
+}
