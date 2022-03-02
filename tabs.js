@@ -23,5 +23,5 @@ function openCity(evt,cityName){
 document.getElementById('default').click();
 
 function hello () {
-    let message = "Hello world by Yaw";
+    let message = "Hello world by Francis Annor";
 }
