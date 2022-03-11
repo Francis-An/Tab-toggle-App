@@ -24,4 +24,8 @@ document.getElementById('default').click();
 
 function hello () {
     let message = "Hello world by Francis Annor";
+    const person = {
+        name: 'Francis',
+        age: '20'
+    }
 }
